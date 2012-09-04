@@ -7,16 +7,17 @@
   "browser_action": 
   {
 	"default_title": "Testing Center Line Conditions",
-    "default_icon": "icon_64.png",
+    "default_icon": "icon_64.jpg",
     "default_popup": "popup.html"
   },
   "icons":
   {
-	"96" : "icon_96.png",
-	"128" : "icon_128.png",
-	"256" : "icon_256.png"
+	"96" : "icon_96.jpg",
+	"128" : "icon_128.jpg",
+	"256" : "icon_256.jpg"
   },
+  "web_accessible_resources": ["http://testing.byu.edu/"],
   "permissions": [
-    "http://testing.byu.edu/", "tabs"
+    "tabs"
   ]
 }
