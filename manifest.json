@@ -8,7 +8,7 @@
   {
 	"default_title": "Testing Center Line Conditions",
     "default_icon": "icon_64.jpg",
-    "default_popup": "popup.html"
+    "default_popup": "index.html"
   },
   "icons":
   {
