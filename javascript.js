@@ -1,9 +1,8 @@
-setInterval(updateTestingCenter, 100);
+setInterval(updateTestingCenter, 1000);
 
 function updateTestingCenter()
 {
-	document.getElementById("testing_center").src = "";
-	document.getElementById("testing_center").src = "http://testing.byu.edu/images/conditions/axiscam.jpg";
+	document.getElementById("testing_center").src = "http://testing.byu.edu/images/conditions/axiscam.jpg" + "?timestamp=" + Date();
 }
 
 function openTab(url)
