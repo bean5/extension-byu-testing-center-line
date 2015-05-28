@@ -2,7 +2,7 @@ setInterval(updateTestingCenter, 1000);
 
 function updateTestingCenter()
 {
-	document.getElementById("testing_center").src = "http://testing.byu.edu/images/conditions/axiscam.jpg" + "?timestamp=" + Date();
+	#('#testing_center').attr('src', 'https://testing.byu.edu/sites/all/scripts/linecamfeed.php' + '?timestamp=' + Date());
 }
 
 function openTab(url)
