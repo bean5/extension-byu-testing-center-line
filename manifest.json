@@ -1,23 +1,21 @@
 {
   "name": "BYU Testing Center Line Conditions",
-  "version": "2.3",
+  "version": "2024.12.20",
   "manifest_version": 2,
   "offline_enabled": false,
   "description": "Shows the current BYU testing center line conditions in just one click.",
-  "browser_action":
-  {
-	"default_title": "Testing Center Line Conditions",
+  "browser_action": {
+    "default_title": "Testing Center Line Conditions",
     "default_icon": "icon_64.jpg",
     "default_popup": "index.html"
   },
-  "icons":
-  {
-	"96" : "icon_96.jpg",
-	"128" : "icon_128.jpg",
-	"256" : "icon_256.jpg"
+  "icons": {
+    "96": "icon_96.jpg",
+    "128": "icon_128.jpg",
+    "256": "icon_256.jpg"
   },
-  "web_accessible_resources": ["http://testing.byu.edu/"],
-  "permissions": [
-    "tabs"
-  ]
+  "web_accessible_resources": [
+    "http://testing.byu.edu/"
+  ],
+  "permissions": []
 }
