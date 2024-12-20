@@ -1,7 +1,7 @@
 {
   "name": "BYU Testing Center Line Conditions",
   "version": "2024.12.20",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "offline_enabled": false,
   "description": "Shows the current BYU testing center line conditions in just one click.",
   "browser_action": {
